@@ -69,7 +69,7 @@ section div h2{
   }
 }
 @supports (corner-shape: squircle) {
-    .content div {
+    .content div , .Hover-Split , .controls > button   {
         corner-shape: squircle;
         border-radius: 100px;
           border: 1px solid white;
@@ -79,6 +79,12 @@ section div h2{
   border: none !important;
   flex-direction: row;
   padding: 0px;
+  gap: 10px;
+}
+@media (max-width : 1400px) {
+  .controls{
+    justify-content: center !important;
+  }
 }
 .counter {
   position: absolute;
@@ -92,6 +98,24 @@ section div h2{
 }
 
 button {
-  border: none;
   cursor: pointer;
+}
+.Hover-Split{
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(0, 48, 48);
+  border: none;
+}
+.controls > button {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 10px 15px ;
+  transition: all 0.3s  ease;
+}
+.controls > button:hover {
+  background-color: white;
+  color: rgb(0, 48, 48);
+  border: none;
 }
