@@ -119,3 +119,6 @@ button {
   color: rgb(0, 48, 48);
   border: none;
 }
+span {
+  display: inline-block;
+}
