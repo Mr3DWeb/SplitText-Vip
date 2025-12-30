@@ -1,11 +1,11 @@
 @font-face {
   font-family:'Parkinsans';
-  src: url(/fonts/Parkinsans-Light.ttf);
+  src: url(../static/fonts/Parkinsans-Light.ttf);
   font-weight: 300;
 }
 @font-face {
   font-family:'Parkinsans';
-  src: url(/fonts/Parkinsans-Bold.ttf);
+  src: url(../static/fonts/Parkinsans-Bold.ttf);
   font-weight: 700;
 }
 :root{
